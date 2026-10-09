@@ -1,5 +1,6 @@
 .work/
 runs/
+project-data/
 __pycache__/
 *.py[cod]
 .venv/
