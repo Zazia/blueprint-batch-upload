@@ -60,6 +60,14 @@ class Planning(unittest.TestCase):
         p = self.plan([dict(path=self.file('A.1_平面图.pack'))], [self.row(code='A.1')], mode='change')
         self.assertEqual(p['items'][0]['route'], 'B')
 
+    def test_new_pdf_and_gdb_use_add_existing_pdf_uses_target(self):
+        for extension in ('.pdf', '.gdb'):
+            p = self.plan([dict(path=self.file('A-1_平面图' + extension))])
+            self.assertEqual(p['items'][0]['action'], 'add')
+            self.assertEqual(p['items'][0]['route'], 'native-add')
+        q = self.plan([dict(path=self.file('A-1_平面图.pdf'))], [self.row()], mode='change')
+        self.assertEqual(q['items'][0]['route'], 'native-target')
+
     def test_collision_normalized_and_after_dot_conversion(self):
         for names in [('A.1_平面图.pack', 'A-1_立面图.pack'), ('Ａ-1_平面图.pack', 'a-1_立面图.pack')]:
             p = self.plan([dict(path=self.file(n)) for n in names])

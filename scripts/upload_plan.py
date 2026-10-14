@@ -274,7 +274,7 @@ def make_plan(root, snapshot, request):
                 item["uploadName"] = f'{item["uploadCode"]}_{title}{file.suffix.lower()}'
                 safe_name(item["uploadName"])
                 item["route"] = "native-add" if item["action"] == "add" else ("B" if "." in item["uploadCode"] else "A")
-                if item["action"] == "cancel" or file.suffix.lower() != ".pack":
+                if item["action"] != "add" and (item["action"] == "cancel" or file.suffix.lower() != ".pack"):
                     item["route"] = "native-target"  # Preserve native PDF/type/sign checks.
                 item["directoryFor"] = [str(x) for x in spec.get("directoryFor", [])]
                 item["directoryImpact"] = spec.get("directoryImpact", False)
