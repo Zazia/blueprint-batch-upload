@@ -56,7 +56,7 @@ plan 输出每项状态与总 blockers/warnings；blocked 项不执行。某些�
 {
   "snapshot": {"context":{},"complete":true,"rows":[]},
   "items":[{"itemId":"计划项ID","state":"verified","BPID":"101","VSID":"实际新版ID",
-    "fileSha256":"计划中的文件哈希","processing":"success","evidenceRef":"本次实际证据文件"}]
+    "fileSha256":"计划中的文件哈希","processing":"success","executionSource":"uploaded","evidenceRef":"本次实际证据文件"}]
 }
 ```
 
@@ -68,19 +68,60 @@ uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" record <r
 
 record 不发上传请求；未知项先从服务器查结果，确定未落版本才重试。缺件补齐后生成新的完整计划，在请求增加 `"reuseVerifiedFrom":["原runId"]`，并提供最新完整快照。只有原批次 verified、相同范围和阶段、相同文件哈希、同 BPID 且对应版本仍存在的项才自动纳入已满足项；只派发 planned 项。已上传增补项可保留 action=add，由旧回执证明其来源。已完成上传的批次不能作为后来新任务的免传依据。未核实的 unknown/failed 不能靠重建计划变成成功；先回读补记。
 
-## 4. 记录完成上传
+## 4. 明确授权、提交前检查与成功回执
 
-页面收尾已实际执行并成功回读后才 `finalize`。收尾请求可能覆盖多个专业，代理先保证按钮整体范围完成，而不只核验一个专业的计划。
+普通“上传这个路径”不授权按钮。`completeRequested` 仅保留兼容：false 表示禁止节点提交，true 也不代表授权。新请求可设 `taskLimit` 为 files（默认）、inspect、trial、partial、no-submit；后四种禁止节点提交，用户扩大范围后应重新生成完整计划，不能只补授权绕过限制。
 
-回执：`{"accepted":true,"serverState":"实际回读状态","evidenceRef":"真实收尾证据路径","snapshot":实际回读快照}`。
+用户明确授权后，代理把真实原话和证据记入 authorization.json：
 
-```powershell
-uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" finalize <runId> "D:/项目资料/finish.json"
+```json
+{
+  "action":"complete-upload",
+  "runId":"实际runId",
+  "context":{"site":"实际站点","WID":"实际工程","OrgId":"实际单位","unit":"实际单体","profession":"建筑"},
+  "source":"post-upload-confirmation",
+  "userStatement":"确认，点击完成上传",
+  "evidenceRef":"真实用户消息引用"
+}
 ```
 
-有 blocker、非 verified 项、竣工缺项或未获成功证据时拒绝记录完成。用户限定部分/试传时 completeRequested=false，finalize 拒绝整批收尾。命令只记录结果，不能替代点击“完成上传”。
+`source` 只允许 explicit-request（事前明确授权）或 post-upload-confirmation（上传后确认）。context 必须与计划完全相同；runId 限定本批次。工具仅记录证据，不能自动判断原话是否真正授权，更不能由代理自己生成授权。
 
-## 5. 本地文件与证据服务
+```powershell
+uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" authorize <runId> authorization.json
+uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" check-submit <runId> latest-snapshot.json
+```
+
+check-submit 返回 ready/reasons；不满足时退出码 2。它核对本计划的授权、限制、未核实项、缺件、完整快照、目标版本和竣工必传集合。通过才可点击。**检查仅覆盖该单体/专业**：按钮覆盖更大范围时，代理须核对所有范围及对应计划，逐一检查；不能拿一个 ready 代表整个工程。
+
+按钮动作实际成功且回读后，才提供收尾回执：
+
+```json
+{"accepted":true,"serverState":"实际系统状态","evidenceRef":"实际成功响应及回读引用","snapshot":{"context":{},"complete":true,"rows":[]}}
+```
+
+snapshot 须填写真实完整数据，上例空内容只是结构说明。
+
+```powershell
+uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" finalize <runId> finish.json
+```
+
+finalize 再检查授权和提交条件并保存实际结果，不发请求，也不能替代点击前检查。已提交成功批次拒绝再次提交记录。
+
+## 5. 用户可读操作报告
+
+```powershell
+uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" report <runId> --format markdown
+uv run scripts/upload_plan.py --project "D:/项目资料/upload-state" report-many <建筑runId> <给排水runId> --format markdown
+```
+
+默认 JSON 保留单计划的原 counts/total/items 等字段，并增加 operationSummary、byProfession、details、notices、submissions。report-many 必须显式列出同工程同阶段的不同单体/专业最终计划；重复计划、重叠范围或跨项目会拒绝，不静默累加。一个范围重规划后选择最终计划，其 reusedFrom 项与本次新上传分开计数。
+
+verified 回执须增加 `executionSource`：本批次实际派发并核实为 uploaded；恢复时只回读发现此前已成功为 recovered。浏览器适配器成功返回 uploaded；人工原生上传回执同样须按事实填写。旧记录无来源保留核实状态，单列“旧回执来源未标明”，不宣称本次新上传。重试更新同一 itemId 的回执，不产生新计数。
+
+报告包括正常图纸的替换/新增与专业小计；目录、取消材料、其他材料单列；取消材料按源路径和哈希统计文件数，同时统计目标数。明细列出单体/专业、原名和上传名、图号图名、动作、结果、版本/证据及问题。目录未更新会提示；增补/取消缺覆盖目录仍属于提交阻塞。报告只使用已记录事实，不访问系统、不保证证据真实性，未知/失败不会计为成功。
+
+## 6. 本地文件与证据服务
 
 只有路径 B 或浏览器无法可靠下载证据时才启动。--origin 为真实站点源（无尾斜杠），令牌放在图纸目录之外，两项服务可共用同一运行令牌文件。
 

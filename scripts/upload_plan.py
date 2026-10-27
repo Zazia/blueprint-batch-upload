@@ -15,6 +15,7 @@ from pathlib import Path
 import re
 import unicodedata
 import uuid
+from operation_report import authorization_matches
 
 
 def now():
@@ -171,6 +172,8 @@ def make_plan(root, snapshot, request):
         raise ValueError("mode 必须是 initial/change/completion")
     if not request.get("expectedStatus"):
         raise ValueError("填写当前页面阶段的 expectedStatus，不能猜测")
+    if request.get("taskLimit", "files") not in ("files", "inspect", "trial", "partial", "no-submit"):
+        raise ValueError("taskLimit 必须为 files/inspect/trial/partial/no-submit")
     with locked(root) as root:
         cat = load_catalog(root, c)
         write(root / "catalog.json", cat)
@@ -191,7 +194,8 @@ def make_plan(root, snapshot, request):
                     reusable.append((previous_id, old))
         plan = {"schemaVersion": 1, "runId": uuid.uuid4().hex, "createdAt": now(), "context": c,
                 "mode": request["mode"], "expectedStatus": request["expectedStatus"],
-                "completeRequested": request.get("completeRequested", True), "snapshot": snapshot,
+                "completeRequested": request.get("completeRequested", True), "authorization": None,
+                "taskLimit": request.get("taskLimit", "files"), "snapshot": snapshot,
                 "items": [], "blockers": [], "warnings": [], "finish": None}
         if snapshot.get("complete") is not True:
             plan["blockers"].append("系统范围未完整采集，不能完成上传或自动判定新增")
@@ -429,6 +433,8 @@ def record(root, run_id, evidence):
             if state not in ("verified", "failed", "unknown", "processing"):
                 raise ValueError("无效结果状态")
             if state == "verified":
+                if result.get("executionSource") not in ("uploaded", "recovered"):
+                    raise ValueError("verified 回执须注明 executionSource=uploaded/recovered")
                 if not result.get("evidenceRef") or result.get("fileSha256") != i["sha256"]:
                     raise ValueError("缺少本次文件哈希或证据引用")
                 bpid = str(result["BPID"])
@@ -463,10 +469,65 @@ def record(root, run_id, evidence):
         return report(p)
 
 
+def authorize(root, run_id, authorization):
+    """Record explicit human permission; supplied evidence must be genuine."""
+    with locked(root) as root:
+        path = run_path(root, run_id)
+        p = read(path)
+        if p.get("finish"):
+            raise ValueError("已提交批次不能重新授权")
+        if p.get("completeRequested") is False or p.get("taskLimit") in ("inspect", "trial", "partial", "no-submit"):
+            raise ValueError("本计划有试传/部分/不提交限制，范围变化须重新计划")
+        if (authorization.get("action") != "complete-upload" or authorization.get("runId") != run_id
+                or authorization.get("source") not in ("explicit-request", "post-upload-confirmation")
+                or not isinstance(authorization.get("evidenceRef"), str) or not authorization["evidenceRef"].strip()
+                or not isinstance(authorization.get("userStatement"), str) or not authorization["userStatement"].strip()
+                or authorization.get("context") != p["context"]):
+            raise ValueError("须提供明确按钮授权、用户原话/证据及完全一致的批次范围")
+        p["authorization"] = {**authorization, "recordedAt": now()}
+        write(path, p)
+        return p["authorization"]
+
+
+def check_submission(root, run_id, snapshot):
+    p = read(run_path(root, run_id))
+    reasons = []
+    if not authorization_matches(p):
+        reasons.append("尚待用户明确确认完成上传；旧 completeRequested 不代表授权")
+    if p.get("completeRequested") is False or p.get("taskLimit") in ("inspect", "trial", "partial", "no-submit"):
+        reasons.append("用户限定检查/试传/部分范围/不提交")
+    reasons.extend(p.get("blockers", []))
+    if any(i["status"] != "verified" for i in p["items"]):
+        reasons.append("仍有缺件/未知/未验证项")
+    validate_snapshot(snapshot)
+    if project(snapshot["context"]) != project(p["context"]) or scope(snapshot["context"]) != scope(p["context"]):
+        reasons.append("提交检查快照范围不同")
+    if snapshot.get("complete") is not True:
+        reasons.append("提交检查快照不完整")
+    cat = load_catalog(Path(root), p["context"])
+    rows = remember_selected(cat, p["context"], snapshot["rows"])
+    if p["mode"] == "completion" and (any("BGID" not in r or ("versions" not in r and "xml" not in r) for r in rows) or missing_completion(rows)):
+        reasons.append("竣工必传仍缺项或字段缺失")
+    for i in p["items"]:
+        if i["status"] != "verified":
+            continue
+        matches = [r for r in rows if str(r["BPID"]) == str(i.get("BPID"))]
+        if len(matches) != 1 or norm(matches[0]["code"]) != norm(i["uploadCode"]) or not any(
+                str(v.get("VSID")) == str(i["result"]["VSID"]) and v.get("status") == p["expectedStatus"] for v in versions(matches[0])):
+            reasons.append(f"目标版本漂移: {i['itemId']}")
+    if p.get("finish"):
+        reasons.append("已记录提交成功，不得再次点击")
+    return {"runId": run_id, "ready": not reasons, "reasons": reasons, "context": p["context"],
+            "scopeLimit": "仅检查本计划范围；按钮覆盖其他范围时须另核对全部计划"}
+
+
 def finalize(root, run_id, receipt):
     with locked(root) as root:
         path = run_path(root, run_id)
         p = read(path)
+        check = check_submission(root, run_id, receipt["snapshot"])
+        if not check["ready"]:
+            raise ValueError("；".join(check["reasons"]))
         if not p["completeRequested"]:
             raise ValueError("用户限制为部分/试传，不得完成整个上传节点")
         if p["blockers"] or any(i["status"] != "verified" for i in p["items"]):
@@ -512,9 +573,10 @@ def report(p):
     counts = {}
     for i in p["items"]:
         counts[i["status"]] = counts.get(i["status"], 0) + 1
+    from operation_report import summarize
     return {"runId": p["runId"], "mode": p["mode"], "counts": counts,
             "total": len(p["items"]), "blockers": p["blockers"], "warnings": p["warnings"],
-            "completeUpload": bool(p["finish"]), "items": p["items"]}
+            "completeUpload": bool(p["finish"]), "items": p["items"], **summarize([p])}
 
 
 def main():
@@ -523,10 +585,15 @@ def main():
     sub = parser.add_subparsers(dest="command", required=True)
     s = sub.add_parser("sync"); s.add_argument("snapshot")
     s = sub.add_parser("plan"); s.add_argument("snapshot"); s.add_argument("request")
-    for command in ("rename", "report", "record", "finalize"):
+    for command in ("rename", "report", "record", "finalize", "authorize", "check-submit"):
         s = sub.add_parser(command); s.add_argument("run_id")
-        if command in ("record", "finalize"):
+        if command in ("record", "finalize", "authorize", "check-submit"):
             s.add_argument("evidence")
+        if command == "report":
+            s.add_argument("--format", choices=("json", "markdown"), default="json")
+    s = sub.add_parser("report-many")
+    s.add_argument("run_ids", nargs="+")
+    s.add_argument("--format", choices=("json", "markdown"), default="json")
     args = parser.parse_args()
     try:
         if args.command == "sync":
@@ -537,12 +604,23 @@ def main():
             result = rename(args.project, args.run_id)
         elif args.command == "report":
             result = report(read(run_path(args.project, args.run_id)))
+        elif args.command == "report-many":
+            from operation_report import summarize
+            result = summarize([read(run_path(args.project, rid)) for rid in args.run_ids])
+        elif args.command == "check-submit":
+            result = check_submission(args.project, args.run_id, read(args.evidence))
         else:
             result = globals()[args.command](args.project, args.run_id, read(args.evidence))
-        print(json.dumps(result, ensure_ascii=False, indent=2))
+        if getattr(args, "format", "json") == "markdown":
+            from operation_report import markdown
+            print(markdown(result))
+        else:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+        if args.command == "check-submit" and not result["ready"]:
+            return 2
     except (ValueError, KeyError, OSError) as exc:
         parser.exit(2, f"错误: {exc}\n")
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

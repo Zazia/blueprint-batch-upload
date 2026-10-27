@@ -135,7 +135,7 @@
           const actual = row?.versions?.find(x => String(x.VSID) === String(v.VSID));
           if (!actual || actual.status !== task.expectedStatus) throw failure('Version/stage readback not confirmed', 'unknown');
           link.attr('status','已上传').find('i').text('已上传');
-          return {state:'verified', BPID:String(data.BPID), VSID:String(v.VSID), processing:'success',
+          return {state:'verified', executionSource:'uploaded', BPID:String(data.BPID), VSID:String(v.VSID), processing:'success',
             fileSha256:hash, evidenceRef:task.itemId, snapshot};
         } catch (e) {
           link.attr({status:e.state === 'failed' ? '上传失败' : '待核查', title:e.message}).find('i').text(e.state === 'failed' ? '上传失败' : '待核查');

@@ -39,7 +39,7 @@ class Planning(unittest.TestCase):
         row = self.row(bpid, i['uploadCode'], i['name'], versions=[dict(VSID=vsid, status=p['expectedStatus'])])
         snap = self.snap([row])
         result = dict(itemId=i['itemId'], state='verified', BPID=bpid, VSID=vsid,
-                      fileSha256=i['sha256'], processing='success', evidenceRef='synthetic-response')
+                      fileSha256=i['sha256'], processing='success', evidenceRef='synthetic-response', executionSource='uploaded')
         return dict(snapshot=snap, items=[result])
 
     def test_dot_rename_opaque_content_and_reusable_mapping(self):
@@ -194,6 +194,7 @@ class Planning(unittest.TestCase):
         p = self.plan([dict(path=self.file())], [self.row()], mode='change')
         ev = self.verified(p)
         u.record(self.root, p['runId'], ev)
+        u.authorize(self.root, p['runId'], dict(action='complete-upload', runId=p['runId'], context=p['context'], source='explicit-request', userStatement='确认完成上传', evidenceRef='synthetic-human'))
         receipt = dict(snapshot=ev['snapshot'], accepted=True, evidenceRef='finish-response', serverState='已完成上传')
         bad = copy.deepcopy(receipt)
         bad['snapshot']['rows'][0]['versions'][0]['status'] = '错误阶段'

@@ -1,8 +1,8 @@
 # blueprint-batch-upload
 
-面向 JGTGL 图纸管理系统的设计单位上传技能，覆盖初次上传、变更上传和竣工图上传，默认推进到对应页面“完成上传”。执行入口为 [SKILL.md](SKILL.md)。
+面向 JGTGL 图纸管理系统的设计单位上传技能，覆盖初次上传、变更上传和竣工图上传，普通请求完成文件上传核实后报告，点击页面“完成上传”须用户明确授权。执行入口为 [SKILL.md](SKILL.md)。
 
-**2026-10-27 需求更正（尚未同步实现）：点击“完成上传”须先由用户确认，除非已有明确授权该按钮动作。** 上述默认行为及当前技能正文仍是旧实现描述，不能当作新授权规则。查看 [情境、流程图、操作报告与常见坑点](docs/usage-walkthrough.md)；本轮仅整理介绍，未改执行逻辑。
+**2026-10-27 已同步实现：** 明确按钮授权记录、提交前检查、最终回执拒绝无授权，以及按动作/专业汇总的 Markdown 报告。旧 completeRequested=true 不视为授权。查看 [情境、流程图、操作报告与常见坑点](docs/usage-walkthrough.md)。
 
 ## 当前工作范围
 
@@ -42,7 +42,7 @@ uv run --python 3.12 scripts/upload_plan.py --project "D:/项目资料/upload-st
 uv run --python 3.12 scripts/upload_plan.py --project "D:/项目资料/upload-state" plan "D:/项目资料/snapshot.json" "D:/项目资料/request.json"
 ```
 
-按返回 runId 执行 rename/report/record/finalize，数据格式及服务命令见 [本地工具](references/local-tools.md)。文件服务和证据接收服务均已参数化，启动时须指定实际站点、目录及运行令牌，不再使用历史机器路径。业务图纸、登录信息、抓包内容和运行输出不进入 Git。
+按返回 runId 执行 rename/report/record；用户明确授权按钮动作后 authorize、check-submit，页面真实提交成功后 finalize。report 支持 --format markdown；report-many 可显式汇总多个不同单体/专业计划。数据格式及服务命令见 [本地工具](references/local-tools.md)。文件服务和证据接收服务均已参数化，启动时须指定实际站点、目录及运行令牌，不再使用历史机器路径。业务图纸、登录信息、抓包内容和运行输出不进入 Git。
 
 离线回归测试：
 

@@ -56,6 +56,8 @@ URL 每段路径分别编码一次，用查询参数 token 或 X-Upload-Token �
 
 ## 4. 完成上传和 BGID
 
+普通上传请求不等于提交授权。文件核实后先报告；只有用户明确授权该按钮动作，才记录 authorize、执行 check-submit，并核对按钮覆盖的全部单体/专业后操作。脚本检查只覆盖单计划，不能替代实际按钮范围核对；finalize 只是事后记录成功结果。具体格式见 [本地工具](references/local-tools.md)。
+
 原竣工链路：页面 `uploadPDF.jgtCompleteUpload()` 先调用 `checkCanSealJGT`（WID/WHID），成功且 data 无阻塞后调用 `blueprint_uploadComplete_jgt`。优先使用页面按钮/原函数维护本身流程；不要并行或跳过前一步直接提交。
 
 - “图纸验证失败，还有图纸未上传新版pack文件或pack文件解压失败…”：根据接口给出的文件逐项定位。
