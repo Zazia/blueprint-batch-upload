@@ -1,0 +1,27 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 取得系统现状";
+a [label="采集现有图纸、版本与状态",shape=box];
+b [label="分页和范围完整？",shape=diamond];
+c [label="补采遗漏范围",shape=box];
+}
+subgraph cluster_1 { label="2 建立本地账本";
+d [label="保存当前清单及来源\n不补造历史记录",shape=box];
+}
+subgraph cluster_2 { label="3 对应本次文件";
+e [label="匹配本次成品\n建立必要的改名关系",shape=box];
+f [label="有歧义的目标单独核查",shape=box];
+}
+subgraph cluster_3 { label="4 继续本次任务";
+g [label="按变更或竣工流程上传",shape=box];
+h [label="核实后更新账本与报告",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="否"];
+c -> a [label=""];
+b -> d [label="是"];
+d -> e [label=""];
+e -> f [label=""];
+f -> g [label=""];
+g -> h [label=""];
+}

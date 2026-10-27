@@ -1,0 +1,34 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 明确图纸动作";
+a [label="依据用户说明与可靠对应\n明确每张图的动作",shape=box];
+}
+subgraph cluster_1 { label="2 分别核对材料";
+b [label="替换\n原图与新版",shape=box];
+c [label="新增\n新图与目录",shape=box];
+d [label="取消\n原图、取消单\n新版目录",shape=box];
+}
+subgraph cluster_2 { label="3 使用对应入口";
+e [label="原记录\n上传新版",shape=box];
+f [label="点击\n上传图纸",shape=box];
+g [label="对原图上传\n取消变更单",shape=box];
+}
+subgraph cluster_3 { label="4 核实并汇总";
+h [label="逐目标核实，更新正式目录",shape=box];
+i [label="必要材料齐全？",shape=diamond];
+j [label="报告结果\n检查提交授权",shape=oval];
+k [label="提醒缺件\n保留独立已完成项",shape=oval];
+}
+a -> b [label="替换"];
+a -> c [label="新增"];
+a -> d [label="取消"];
+b -> e [label=""];
+c -> f [label=""];
+d -> g [label=""];
+e -> h [label=""];
+f -> h [label=""];
+g -> h [label=""];
+h -> i [label=""];
+i -> j [label="是"];
+i -> k [label="否"];
+}

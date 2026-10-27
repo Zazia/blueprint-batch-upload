@@ -1,0 +1,23 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 准备成品";
+a [label="已经有成品？",shape=diamond];
+b [label="前置处理接口（预留）\n拆分、配对、打包",shape=box];
+}
+subgraph cluster_1 { label="2 明确动作";
+c [label="当前：可靠匹配与明确说明",shape=box];
+d [label="动作识别接口（预留）\n未来补充动作、目标及依据",shape=box];
+}
+subgraph cluster_2 { label="3 上传核实";
+e [label="检查范围、目标与冲突\n执行已明确项并回读",shape=box];
+}
+subgraph cluster_3 { label="4 报告提交";
+f [label="报告操作与缺项\n条件齐全且明确获准才提交",shape=oval];
+}
+a -> b [label="否"];
+a -> c [label="是"];
+b -> c [label="准备好后"];
+d -> c [label="未来衔接"];
+c -> e [label=""];
+e -> f [label=""];
+}

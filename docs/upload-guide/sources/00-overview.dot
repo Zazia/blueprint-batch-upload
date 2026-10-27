@@ -1,0 +1,32 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 确定任务";
+a [label="核对工程、单体\n专业与上传阶段",shape=box];
+b [label="已有上传成品？",shape=diamond];
+x [label="列出前置处理需求",shape=oval];
+}
+subgraph cluster_1 { label="2 对应图纸";
+c [label="读取系统图纸与改名记录",shape=box];
+d [label="确定更新、新增、取消\n歧义项单列待核查",shape=box];
+}
+subgraph cluster_2 { label="3 执行与核实";
+e [label="执行目标明确、材料齐全的项",shape=box];
+f [label="回读版本及处理结果",shape=box];
+}
+subgraph cluster_3 { label="4 报告与提交";
+g [label="输出操作明细与缺项",shape=box];
+h [label="范围齐全且\n已明确授权？",shape=diamond];
+i [label="点击完成上传\n回读节点状态",shape=oval];
+j [label="保留结果，待补件或确认",shape=oval];
+}
+a -> b [label=""];
+b -> x [label="否"];
+b -> c [label="是"];
+c -> d [label=""];
+d -> e [label=""];
+e -> f [label=""];
+f -> g [label=""];
+g -> h [label=""];
+h -> i [label="是"];
+h -> j [label="否"];
+}

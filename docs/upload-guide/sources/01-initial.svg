@@ -1,50 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>首次上传，把名字先理顺</title><desc>预检外层与范围；核对成品类型、名称和单体专业；检查同范围重号，也查系统记录；包内内容不在这一阶段检查。安排新增或更新；确属首传且无冲突 → 安排新增；已有可靠对应 → 对原图传新版；新增号含点 → 改名并保存映射。按入口上传核实；新增走“上传图纸”入口；已有图走对应新版入口；核实实际图号、版本与处理结果。留下下次可用的记录；保存系统对应关系与改名表；报告新增、更新和目录情况；具备提交条件后，检查明确授权</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">首次上传，把名字先理顺</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 这个项目第一次传，文件在 xx</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">预检外层与范围</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">核对成品类型、名称和单体专业</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">检查同范围重号，也查系统记录</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">包内内容不在这一阶段检查</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">安排新增或更新</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">确属首传且无冲突 → 安排新增</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">已有可靠对应 → 对原图传新版</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">新增号含点 → 改名并保存映射</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">按入口上传核实</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">新增走“上传图纸”入口</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">已有图走对应新版入口</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">核实实际图号、版本与处理结果</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">留下下次可用的记录</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">保存系统对应关系与改名表</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">报告新增、更新和目录情况</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">具备提交条件后，检查明确授权</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">首次改过的名字，下次上传可以沿用。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="966" viewBox="0 0 420 966"><title>初次上传</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">初次上传</text>
+<rect x="10" y="48" width="400" height="221" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 预检与查重</text>
+<rect x="10" y="299" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="324" font-size="14" font-weight="600" fill="#23577D">2 确定上传动作</text>
+<rect x="10" y="526" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="551" font-size="14" font-weight="600" fill="#23577D">3 上传并核实</text>
+<rect x="10" y="753" width="400" height="181" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="778" font-size="14" font-weight="600" fill="#23577D">4 保存与交接</text>
+<path data-edge="a-b" d="M210 149 V166.28 H210 V185" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M210 251 V263 H16 V334 H112 V342" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-d" d="M210 251 V294.68 H308 V342" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-u" d="M210 251 V339.8 H210 V436" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="c-e" d="M112 384 V397 H4 V557 H210 V569" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M308 400 V413 H416 V557 H210 V569" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-f" d="M210 611 V628.28 H210 V647" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 705 V748.68 H210 V796" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="g-h" d="M210 838 V855.28 H210 V874" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="115" text-anchor="middle" font-size="14" fill="#263446">检查成品外层名称</text>
+<text x="210" y="135" text-anchor="middle" font-size="14" fill="#263446">核对范围和系统现有图纸</text>
+</g>
+<g class="node" data-id="b">
+<polygon points="210,185 326,218 210,251 94,218" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="210" y="223" text-anchor="middle" font-size="14" fill="#263446">已有唯一对应？</text>
+</g>
+<g class="node" data-id="c">
+<rect x="29" y="342" width="166" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="112" y="368" text-anchor="middle" font-size="14" fill="#263446">安排原图新版</text>
+</g>
+<g class="node" data-id="d">
+<rect x="225" y="342" width="166" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="308" y="366" text-anchor="middle" font-size="14" fill="#263446">确认首传且无冲突</text>
+<text x="308" y="386" text-anchor="middle" font-size="14" fill="#263446">必要时改名并保存映射</text>
+</g>
+<g class="node" data-id="u">
+<rect x="94" y="436" width="232" height="42" rx="21" fill="white" stroke="#96A9BB"/>
+<text x="210" y="462" text-anchor="middle" font-size="14" fill="#263446">列待核查项</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="569" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="595" text-anchor="middle" font-size="14" fill="#263446">按新增或新版入口上传</text>
+</g>
+<g class="node" data-id="f">
+<rect x="94" y="647" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="671" text-anchor="middle" font-size="14" fill="#263446">回读实际图号、版本</text>
+<text x="210" y="691" text-anchor="middle" font-size="14" fill="#263446">及文件处理结果</text>
+</g>
+<g class="node" data-id="g">
+<rect x="94" y="796" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="822" text-anchor="middle" font-size="14" fill="#263446">建立对应账本，报告目录情况</text>
+</g>
+<g class="node" data-id="h">
+<rect x="94" y="874" width="232" height="42" rx="21" fill="white" stroke="#96A9BB"/>
+<text x="210" y="900" text-anchor="middle" font-size="14" fill="#263446">条件齐全后检查提交授权</text>
+</g>
+<text x="113" y="259" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">有</text>
+<text x="259" y="289.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">无</text>
+<text x="225" y="334.8" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">不确定</text>
 </g></svg>

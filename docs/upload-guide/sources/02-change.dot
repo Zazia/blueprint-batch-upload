@@ -1,0 +1,26 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 取得对应依据";
+a [label="读取变更任务、系统图纸\n及历史改名关系",shape=box];
+b [label="动作与目标明确？",shape=diamond];
+}
+subgraph cluster_1 { label="2 形成执行计划";
+c [label="核对新版、增补\n或取消材料",shape=box];
+d [label="列候选与问题\n不默认新增或取消",shape=oval];
+}
+subgraph cluster_2 { label="3 执行明确项";
+e [label="原图新版按图号选入口\n新增、取消走相应原生入口",shape=box];
+f [label="上传后核实目标\n版本与处理结果",shape=box];
+}
+subgraph cluster_3 { label="4 汇总待办";
+g [label="报告实际操作及未匹配项",shape=box];
+h [label="有阻塞先补齐\n无阻塞再检查提交授权",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="是"];
+b -> d [label="否"];
+c -> e [label=""];
+e -> f [label=""];
+f -> g [label=""];
+g -> h [label=""];
+}

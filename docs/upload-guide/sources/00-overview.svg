@@ -1,50 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>把上传这件事，分成四段</title><desc>认清任务；确认工程、单体、专业和阶段；只有源图 → 列出缺少的成品；有成品 → 核对系统现有记录。排好动作；可靠对应 → 原图上传新版；明确增补或取消 → 核对材料；有歧义 → 列问题，不猜目标。上传并核实；必要时改包名，保存改名关系；按目标上传，回读版本与处理结果；失败查原因；超时先查服务器。报告与提交；列实际操作、专业数量和缺件；缺件未齐 → 说明阻塞，暂不提交；齐全且明确获准 → 提交并回读</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">把上传这件事，分成四段</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">先看阶段，再看框内动作</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">认清任务</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">确认工程、单体、专业和阶段</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">只有源图 → 列出缺少的成品</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">有成品 → 核对系统现有记录</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">排好动作</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">可靠对应 → 原图上传新版</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">明确增补或取消 → 核对材料</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">有歧义 → 列问题，不猜目标</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">上传并核实</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">必要时改包名，保存改名关系</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">按目标上传，回读版本与处理结果</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">失败查原因；超时先查服务器</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">报告与提交</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">列实际操作、专业数量和缺件</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">缺件未齐 → 说明阻塞，暂不提交</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">齐全且明确获准 → 提交并回读</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">文件上传与“完成上传”按钮，分开确认。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="1076" viewBox="0 0 420 1076"><title>总体流程</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">总体流程</text>
+<rect x="10" y="48" width="400" height="221" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 确定任务</text>
+<rect x="10" y="299" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="324" font-size="14" font-weight="600" fill="#23577D">2 对应图纸</text>
+<rect x="10" y="526" width="400" height="181" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="551" font-size="14" font-weight="600" fill="#23577D">3 执行与核实</text>
+<rect x="10" y="737" width="400" height="307" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="762" font-size="14" font-weight="600" fill="#23577D">4 报告与提交</text>
+<path data-edge="a-b" d="M210 149 V166.28 H112 V185" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-x" d="M195 218 L210 218 L210 206 L225 206" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M112 251 V294.68 H210 V342" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="c-d" d="M210 384 V401.28 H210 V420" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M210 478 V521.68 H210 V569" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-f" d="M210 611 V628.28 H210 V647" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 689 V732.68 H210 V780" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="g-h" d="M210 822 V839.28 H210 V858" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="h-i" d="M210 932 V949.28 H112 V968" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="h-j" d="M210 932 V949.28 H308 V968" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="115" text-anchor="middle" font-size="14" fill="#263446">核对工程、单体</text>
+<text x="210" y="135" text-anchor="middle" font-size="14" fill="#263446">专业与上传阶段</text>
+</g>
+<g class="node" data-id="b">
+<polygon points="112,185 195,218 112,251 29,218" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="112" y="223" text-anchor="middle" font-size="14" fill="#263446">已有上传成品？</text>
+</g>
+<g class="node" data-id="x">
+<rect x="225" y="185" width="166" height="42" rx="21" fill="white" stroke="#96A9BB"/>
+<text x="308" y="211" text-anchor="middle" font-size="14" fill="#263446">列出前置处理需求</text>
+</g>
+<g class="node" data-id="c">
+<rect x="94" y="342" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="368" text-anchor="middle" font-size="14" fill="#263446">读取系统图纸与改名记录</text>
+</g>
+<g class="node" data-id="d">
+<rect x="94" y="420" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="444" text-anchor="middle" font-size="14" fill="#263446">确定更新、新增、取消</text>
+<text x="210" y="464" text-anchor="middle" font-size="14" fill="#263446">歧义项单列待核查</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="569" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="595" text-anchor="middle" font-size="14" fill="#263446">执行目标明确、材料齐全的项</text>
+</g>
+<g class="node" data-id="f">
+<rect x="94" y="647" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="673" text-anchor="middle" font-size="14" fill="#263446">回读版本及处理结果</text>
+</g>
+<g class="node" data-id="g">
+<rect x="94" y="780" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="806" text-anchor="middle" font-size="14" fill="#263446">输出操作明细与缺项</text>
+</g>
+<g class="node" data-id="h">
+<polygon points="210,858 326,895 210,932 94,895" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="210" y="890" text-anchor="middle" font-size="14" fill="#263446">范围齐全且</text>
+<text x="210" y="910" text-anchor="middle" font-size="14" fill="#263446">已明确授权？</text>
+</g>
+<g class="node" data-id="i">
+<rect x="29" y="968" width="166" height="58" rx="29" fill="white" stroke="#96A9BB"/>
+<text x="112" y="992" text-anchor="middle" font-size="14" fill="#263446">点击完成上传</text>
+<text x="112" y="1012" text-anchor="middle" font-size="14" fill="#263446">回读节点状态</text>
+</g>
+<g class="node" data-id="j">
+<rect x="225" y="968" width="166" height="58" rx="29" fill="white" stroke="#96A9BB"/>
+<text x="308" y="992" text-anchor="middle" font-size="14" fill="#263446">保留结果，待补件或确</text>
+<text x="308" y="1012" text-anchor="middle" font-size="14" fill="#263446">认</text>
+</g>
+<text x="210" y="199" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
+<text x="161" y="289.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
+<text x="161" y="944.28" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
+<text x="259" y="944.28" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
 </g></svg>

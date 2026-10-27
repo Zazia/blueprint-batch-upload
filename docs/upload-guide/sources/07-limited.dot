@@ -1,0 +1,25 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 确定允许范围";
+a [label="记录指定文件、专业\n以及不提交等限制",shape=box];
+b [label="本次允许上传？",shape=diamond];
+}
+subgraph cluster_1 { label="2 按要求规划";
+c [label="只做预检\n不改名、不上传",shape=box];
+d [label="只安排明确授权文件\n缺成品则列缺项",shape=box];
+}
+subgraph cluster_2 { label="3 执行允许的工作";
+e [label="上传指定项并回读结果\n原件不动时使用改名副本",shape=box];
+}
+subgraph cluster_3 { label="4 说明做到哪里";
+f [label="报告检查或试传结果\n列未做范围，保持节点未提交",shape=box];
+g [label="扩大范围后重建完整计划",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="否"];
+b -> d [label="是"];
+d -> e [label=""];
+c -> f [label=""];
+e -> f [label=""];
+f -> g [label=""];
+}

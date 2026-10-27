@@ -1,0 +1,25 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 按事实出报告";
+a [label="按动作、专业统计图纸\n目录、取消单和复用结果另列",shape=box];
+}
+subgraph cluster_1 { label="2 检查整个提交范围";
+b [label="材料与结果全部满足？",shape=diamond];
+c [label="列缺件或未知项\n暂不提交",shape=oval];
+}
+subgraph cluster_2 { label="3 检查用户授权";
+d [label="已明确授权按钮动作？",shape=diamond];
+e [label="报告后等待用户确认",shape=box];
+}
+subgraph cluster_3 { label="4 提交并回读";
+f [label="点击完成上传，核实实际状态",shape=box];
+g [label="成功更新报告\n失败或未知则说明并核查",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="否"];
+b -> d [label="是"];
+d -> e [label="否"];
+d -> f [label="是"];
+e -> d [label="确认后重查"];
+f -> g [label=""];
+}

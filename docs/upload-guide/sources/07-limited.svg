@@ -1,50 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>只试两张，就只做两张</title><desc>把操作边界记清；确认只检查、试传或指定专业；明确允许上传的具体文件集合；“先别提交”单独保留为限制。在边界内做计划；只检查 → 列问题，不改名不上传；只试传 → 只安排指定文件；只有源图 → 列缺少的成品。执行允许的操作；上传前核对目标，上传后回读；需要改名且原件不动 → 用副本；未经允许的文件不加入队列。说明做到哪里；列试传结果或预检问题；明确哪些范围还没做、为什么；后续扩大任务 → 重建完整计划</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">只试两张，就只做两张</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 先试传建筑两张，别点完成</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">把操作边界记清</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">确认只检查、试传或指定专业</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">明确允许上传的具体文件集合</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">“先别提交”单独保留为限制</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">在边界内做计划</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">只检查 → 列问题，不改名不上传</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">只试传 → 只安排指定文件</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">只有源图 → 列缺少的成品</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">执行允许的操作</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">上传前核对目标，上传后回读</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">需要改名且原件不动 → 用副本</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">未经允许的文件不加入队列</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">说明做到哪里</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">列试传结果或预检问题</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">明确哪些范围还没做、为什么</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">后续扩大任务 → 重建完整计划</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">试传成功，也不能替整个工程点“完成上传”。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="826" viewBox="0 0 420 826"><title>只检查或只试传</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">只检查或只试传</text>
+<rect x="10" y="48" width="400" height="221" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 确定允许范围</text>
+<rect x="10" y="299" width="400" height="119" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="324" font-size="14" font-weight="600" fill="#23577D">2 按要求规划</text>
+<rect x="10" y="448" width="400" height="119" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="473" font-size="14" font-weight="600" fill="#23577D">3 执行允许的工作</text>
+<rect x="10" y="597" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="622" font-size="14" font-weight="600" fill="#23577D">4 说明做到哪里</text>
+<path data-edge="a-b" d="M210 149 V166.28 H210 V185" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M210 251 V263 H16 V334 H112 V342" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-d" d="M210 251 V294.68 H308 V342" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M308 400 V443.68 H210 V491" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="c-f" d="M112 400 V413 H4 V628 H210 V640" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-f" d="M210 549 V592.68 H210 V640" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 698 V715.28 H210 V734" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="115" text-anchor="middle" font-size="14" fill="#263446">记录指定文件、专业</text>
+<text x="210" y="135" text-anchor="middle" font-size="14" fill="#263446">以及不提交等限制</text>
+</g>
+<g class="node" data-id="b">
+<polygon points="210,185 326,218 210,251 94,218" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="210" y="223" text-anchor="middle" font-size="14" fill="#263446">本次允许上传？</text>
+</g>
+<g class="node" data-id="c">
+<rect x="29" y="342" width="166" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="112" y="366" text-anchor="middle" font-size="14" fill="#263446">只做预检</text>
+<text x="112" y="386" text-anchor="middle" font-size="14" fill="#263446">不改名、不上传</text>
+</g>
+<g class="node" data-id="d">
+<rect x="225" y="342" width="166" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="308" y="366" text-anchor="middle" font-size="14" fill="#263446">只安排明确授权文件</text>
+<text x="308" y="386" text-anchor="middle" font-size="14" fill="#263446">缺成品则列缺项</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="491" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="515" text-anchor="middle" font-size="14" fill="#263446">上传指定项并回读结果</text>
+<text x="210" y="535" text-anchor="middle" font-size="14" fill="#263446">原件不动时使用改名副本</text>
+</g>
+<g class="node" data-id="f">
+<rect x="94" y="640" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="664" text-anchor="middle" font-size="14" fill="#263446">报告检查或试传结果</text>
+<text x="210" y="684" text-anchor="middle" font-size="14" fill="#263446">列未做范围，保持节点未提交</text>
+</g>
+<g class="node" data-id="g">
+<rect x="94" y="734" width="232" height="42" rx="21" fill="white" stroke="#96A9BB"/>
+<text x="210" y="760" text-anchor="middle" font-size="14" fill="#263446">扩大范围后重建完整计划</text>
+</g>
+<text x="113" y="259" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
+<text x="259" y="289.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
 </g></svg>

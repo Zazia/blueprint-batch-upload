@@ -1,0 +1,28 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 先查实际结果";
+a [label="读取原计划与日志\n回读服务器实际状态",shape=box];
+b [label="现在是什么状态？",shape=diamond];
+}
+subgraph cluster_1 { label="2 按结果分流";
+c [label="已成功\n补证据\n不重传",shape=box];
+d [label="确定失败\n或尚未发送\n处理后继续",shape=box];
+e [label="结果未知\n先核查\n不盲重试",shape=box];
+}
+subgraph cluster_2 { label="3 只补必要项";
+f [label="核实补传结果\n区分本次上传与恢复确认",shape=box];
+}
+subgraph cluster_3 { label="4 分开报告数量";
+g [label="报告此前成功、本次补传\n及仍待核查的项目",shape=box];
+h [label="无阻塞才进入提交授权检查",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="成功"];
+b -> d [label="可继续"];
+b -> e [label="未知"];
+c -> f [label=""];
+d -> f [label=""];
+f -> g [label=""];
+e -> g [label=""];
+g -> h [label=""];
+}

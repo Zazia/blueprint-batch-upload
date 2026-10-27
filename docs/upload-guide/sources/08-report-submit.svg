@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>先看明细，再决定是否提交</title><desc>按已核实事实出报告；图纸 = 替换原图 + 新增；同批图纸按专业汇总，数量对齐；目录、取消单与复用结果另列。检查整个按钮范围；核对全部单体、专业及必需材料；缺件、失败或未知 → 先解决；一个专业传完，不代表全范围齐全。确认用户是否授权；普通“帮我上传” → 等待确认；已明确授权按钮 → 无须重复问；确认只覆盖已说明的任务范围。点击后再核实；提交并回读系统实际状态；失败或超时 → 单独报告并核查；成功 → 更新报告和目录修订</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">先看明细，再决定是否提交</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 传好了告诉我，确认后再点完成</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">按已核实事实出报告</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">图纸 = 替换原图 + 新增</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">同批图纸按专业汇总，数量对齐</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">目录、取消单与复用结果另列</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">检查整个按钮范围</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">核对全部单体、专业及必需材料</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">缺件、失败或未知 → 先解决</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">一个专业传完，不代表全范围齐全</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">确认用户是否授权</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">普通“帮我上传” → 等待确认</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">已明确授权按钮 → 无须重复问</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">确认只覆盖已说明的任务范围</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">点击后再核实</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">提交并回读系统实际状态</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">失败或超时 → 单独报告并核查</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">成功 → 更新报告和目录修订</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">报告说清动了哪些图，也说清节点有没有提交。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="826" viewBox="0 0 420 826"><title>报告与完成上传</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">报告与完成上传</text>
+<rect x="10" y="48" width="400" height="119" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 按事实出报告</text>
+<rect x="10" y="197" width="400" height="135" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="222" font-size="14" font-weight="600" fill="#23577D">2 检查整个提交范围</text>
+<rect x="10" y="362" width="400" height="205" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="387" font-size="14" font-weight="600" fill="#23577D">3 检查用户授权</text>
+<rect x="10" y="597" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="622" font-size="14" font-weight="600" fill="#23577D">4 提交并回读</text>
+<path data-edge="a-b" d="M210 149 V161 H16 V232 H112 V240" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M195 277 L210 277 L210 269 L225 269" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-d" d="M112 314 V357.68 H210 V405" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M210 471 V488.28 H210 V507" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-f" d="M210 471 V484 H416 V628 H210 V640" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-d" d="M326 528 H404 V438 H326" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 682 V699.28 H210 V718" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="115" text-anchor="middle" font-size="14" fill="#263446">按动作、专业统计图纸</text>
+<text x="210" y="135" text-anchor="middle" font-size="14" fill="#263446">目录、取消单和复用结果另列</text>
+</g>
+<g class="node" data-id="b">
+<polygon points="112,240 195,277 112,314 29,277" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="112" y="272" text-anchor="middle" font-size="14" fill="#263446">材料与结果全部满</text>
+<text x="112" y="292" text-anchor="middle" font-size="14" fill="#263446">足？</text>
+</g>
+<g class="node" data-id="c">
+<rect x="225" y="240" width="166" height="58" rx="29" fill="white" stroke="#96A9BB"/>
+<text x="308" y="264" text-anchor="middle" font-size="14" fill="#263446">列缺件或未知项</text>
+<text x="308" y="284" text-anchor="middle" font-size="14" fill="#263446">暂不提交</text>
+</g>
+<g class="node" data-id="d">
+<polygon points="210,405 326,438 210,471 94,438" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="210" y="443" text-anchor="middle" font-size="14" fill="#263446">已明确授权按钮动作？</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="507" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="533" text-anchor="middle" font-size="14" fill="#263446">报告后等待用户确认</text>
+</g>
+<g class="node" data-id="f">
+<rect x="94" y="640" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="666" text-anchor="middle" font-size="14" fill="#263446">点击完成上传，核实实际状态</text>
+</g>
+<g class="node" data-id="g">
+<rect x="94" y="718" width="232" height="58" rx="29" fill="white" stroke="#96A9BB"/>
+<text x="210" y="742" text-anchor="middle" font-size="14" fill="#263446">成功更新报告</text>
+<text x="210" y="762" text-anchor="middle" font-size="14" fill="#263446">失败或未知则说明并核查</text>
+</g>
+<text x="210" y="262" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
+<text x="161" y="352.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
+<text x="225" y="483.28" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
+<text x="313" y="480" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
+<text x="382" y="483" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">确认后重查</text>
 </g></svg>

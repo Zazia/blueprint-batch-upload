@@ -1,0 +1,29 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 预检与查重";
+a [label="检查成品外层名称\n核对范围和系统现有图纸",shape=box];
+b [label="已有唯一对应？",shape=diamond];
+}
+subgraph cluster_1 { label="2 确定上传动作";
+c [label="安排原图新版",shape=box];
+d [label="确认首传且无冲突\n必要时改名并保存映射",shape=box];
+u [label="列待核查项",shape=oval];
+}
+subgraph cluster_2 { label="3 上传并核实";
+e [label="按新增或新版入口上传",shape=box];
+f [label="回读实际图号、版本\n及文件处理结果",shape=box];
+}
+subgraph cluster_3 { label="4 保存与交接";
+g [label="建立对应账本，报告目录情况",shape=box];
+h [label="条件齐全后检查提交授权",shape=oval];
+}
+a -> b [label=""];
+b -> c [label="有"];
+b -> d [label="无"];
+b -> u [label="不确定"];
+c -> e [label=""];
+d -> e [label=""];
+e -> f [label=""];
+f -> g [label=""];
+g -> h [label=""];
+}

@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>同事传过，也能接着做</title><desc>从系统取得当前清单；采集当前单体、专业的图纸与版本；翻页和范围不全 → 继续补采；没有看到，不代表系统没有。建立可信的本地账本；记录当前图号、目标身份和状态；保留来源与采集范围；只记当前事实，不编造历史。接上本次文件；匹配本次成品与系统已有记录；名称不同 → 核实后建立映射；有多候选 → 只追问有歧义的项。进入本次上传流程；按当前变更或竣工任务继续；回读实际结果，更新账本与报告；本次没提供的图，不据此取消</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">同事传过，也能接着做</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 没有旧台账，只有这次修改的图</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">从系统取得当前清单</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">采集当前单体、专业的图纸与版本</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">翻页和范围不全 → 继续补采</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">没有看到，不代表系统没有</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">建立可信的本地账本</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">记录当前图号、目标身份和状态</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">保留来源与采集范围</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">只记当前事实，不编造历史</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">接上本次文件</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">匹配本次成品与系统已有记录</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">名称不同 → 核实后建立映射</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">有多候选 → 只追问有歧义的项</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">进入本次上传流程</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">按当前变更或竣工任务继续</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">回读实际结果，更新账本与报告</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">本次没提供的图，不据此取消</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">建档是为了接着上传，不是把整个工程重传。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="872" viewBox="0 0 420 872"><title>接手已有项目</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">接手已有项目</text>
+<rect x="10" y="48" width="400" height="205" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 取得系统现状</text>
+<rect x="10" y="283" width="400" height="119" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="308" font-size="14" font-weight="600" fill="#23577D">2 建立本地账本</text>
+<rect x="10" y="432" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="457" font-size="14" font-weight="600" fill="#23577D">3 对应本次文件</text>
+<rect x="10" y="659" width="400" height="181" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="684" font-size="14" font-weight="600" fill="#23577D">4 继续本次任务</text>
+<path data-edge="a-b" d="M210 133 V150.28 H112 V169" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M195 202 L210 202 L210 190 L225 190" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="c-a" d="M391 190 H404 V112 H326" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-d" d="M112 235 V278.68 H210 V326" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M210 384 V427.68 H210 V475" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-f" d="M210 533 V550.28 H210 V569" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 611 V654.68 H210 V702" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="g-h" d="M210 744 V761.28 H210 V780" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="117" text-anchor="middle" font-size="14" fill="#263446">采集现有图纸、版本与状态</text>
+</g>
+<g class="node" data-id="b">
+<polygon points="112,169 195,202 112,235 29,202" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="112" y="207" text-anchor="middle" font-size="14" fill="#263446">分页和范围完整？</text>
+</g>
+<g class="node" data-id="c">
+<rect x="225" y="169" width="166" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="308" y="195" text-anchor="middle" font-size="14" fill="#263446">补采遗漏范围</text>
+</g>
+<g class="node" data-id="d">
+<rect x="94" y="326" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="350" text-anchor="middle" font-size="14" fill="#263446">保存当前清单及来源</text>
+<text x="210" y="370" text-anchor="middle" font-size="14" fill="#263446">不补造历史记录</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="475" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="499" text-anchor="middle" font-size="14" fill="#263446">匹配本次成品</text>
+<text x="210" y="519" text-anchor="middle" font-size="14" fill="#263446">建立必要的改名关系</text>
+</g>
+<g class="node" data-id="f">
+<rect x="94" y="569" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="595" text-anchor="middle" font-size="14" fill="#263446">有歧义的目标单独核查</text>
+</g>
+<g class="node" data-id="g">
+<rect x="94" y="702" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="728" text-anchor="middle" font-size="14" fill="#263446">按变更或竣工流程上传</text>
+</g>
+<g class="node" data-id="h">
+<rect x="94" y="780" width="232" height="42" rx="21" fill="white" stroke="#96A9BB"/>
+<text x="210" y="806" text-anchor="middle" font-size="14" fill="#263446">核实后更新账本与报告</text>
+</g>
+<text x="210" y="183" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">否</text>
+<text x="161" y="273.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">是</text>
 </g></svg>

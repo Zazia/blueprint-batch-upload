@@ -1,50 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>竣工缺图，查系统那张清单</title><desc>找出系统要求的图纸；读取完整范围的勾选与版本记录；曾被变更勾选 → 检查有效竣工版；没出过变更版，也不能自动豁免。对照本次成品；已有有效版且本次无新件 → 已满足；缺竣工版 → 对应本地成品；另核对明确增补、取消及目录。补传并重新核查；执行独立可完成项，核实处理结果；重新读取整个提交范围的缺项；发送过请求，不等于缺项已补齐。给出准确的任务状态；分开报告本次上传与原有已满足项；仍有缺图 → 列图号与所需材料；无阻塞且明确获准 → 提交并回读</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
-<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">竣工缺图，查系统那张清单</text>
-<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 文件都传了，怎么还提示没传齐</text>
-<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
-<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
-<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">找出系统要求的图纸</text>
-<circle cx="82" cy="332" r="4" fill="#007AFF"/>
-<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">读取完整范围的勾选与版本记录</text>
-<circle cx="82" cy="385" r="4" fill="#007AFF"/>
-<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">曾被变更勾选 → 检查有效竣工版</text>
-<circle cx="82" cy="438" r="4" fill="#007AFF"/>
-<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">没出过变更版，也不能自动豁免</text>
-<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
-<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
-<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">对照本次成品</text>
-<circle cx="82" cy="612" r="4" fill="#007AFF"/>
-<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">已有有效版且本次无新件 → 已满足</text>
-<circle cx="82" cy="665" r="4" fill="#007AFF"/>
-<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">缺竣工版 → 对应本地成品</text>
-<circle cx="82" cy="718" r="4" fill="#007AFF"/>
-<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">另核对明确增补、取消及目录</text>
-<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
-<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
-<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">补传并重新核查</text>
-<circle cx="82" cy="892" r="4" fill="#007AFF"/>
-<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">执行独立可完成项，核实处理结果</text>
-<circle cx="82" cy="945" r="4" fill="#007AFF"/>
-<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">重新读取整个提交范围的缺项</text>
-<circle cx="82" cy="998" r="4" fill="#007AFF"/>
-<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">发送过请求，不等于缺项已补齐</text>
-<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
-<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
-<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
-<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">给出准确的任务状态</text>
-<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
-<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">分开报告本次上传与原有已满足项</text>
-<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
-<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">仍有缺图 → 列图号与所需材料</text>
-<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
-<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">无阻塞且明确获准 → 提交并回读</text>
-<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">文件夹传完，不等于整个竣工任务满足要求。</text>
-<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="916" viewBox="0 0 420 916"><title>竣工图上传</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#647C8F"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="210" y="26" text-anchor="middle" font-size="16" font-weight="600" fill="#263D50">竣工图上传</text>
+<rect x="10" y="48" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="73" font-size="14" font-weight="600" fill="#23577D">1 确定必传范围</text>
+<rect x="10" y="275" width="400" height="197" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="300" font-size="14" font-weight="600" fill="#23577D">2 对照成品</text>
+<rect x="10" y="502" width="400" height="213" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="527" font-size="14" font-weight="600" fill="#23577D">3 上传后重新检查</text>
+<rect x="10" y="745" width="400" height="139" rx="8" fill="#F8FAFC" stroke="#C6D3DD"/><text x="24" y="770" font-size="14" font-weight="600" fill="#23577D">4 报告与收尾</text>
+<path data-edge="a-b" d="M210 133 V150.28 H210 V169" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="b-c" d="M210 227 V270.68 H210 V318" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="c-d" d="M210 376 V393.28 H210 V412" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="d-e" d="M210 454 V497.68 H210 V545" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="e-f" d="M210 587 V604.28 H210 V623" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-g" d="M210 697 V709 H16 V780 H112 V788" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<path data-edge="f-h" d="M210 697 V740.68 H308 V788" fill="none" stroke="#647C8F" stroke-width="1.1" marker-end="url(#arrow)"/>
+<g class="node" data-id="a">
+<rect x="94" y="91" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="117" text-anchor="middle" font-size="14" fill="#263446">读取勾选记录与有效竣工版本</text>
+</g>
+<g class="node" data-id="b">
+<rect x="94" y="169" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="193" text-anchor="middle" font-size="14" fill="#263446">曾勾选但无竣工版</text>
+<text x="210" y="213" text-anchor="middle" font-size="14" fill="#263446">均纳入待补集合</text>
+</g>
+<g class="node" data-id="c">
+<rect x="94" y="318" width="232" height="58" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="342" text-anchor="middle" font-size="14" fill="#263446">匹配待补图纸和本次新文件</text>
+<text x="210" y="362" text-anchor="middle" font-size="14" fill="#263446">核对增补、取消及目录</text>
+</g>
+<g class="node" data-id="d">
+<rect x="94" y="412" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="438" text-anchor="middle" font-size="14" fill="#263446">列缺件，安排独立可完成项</text>
+</g>
+<g class="node" data-id="e">
+<rect x="94" y="545" width="232" height="42" rx="6" fill="white" stroke="#96A9BB"/>
+<text x="210" y="571" text-anchor="middle" font-size="14" fill="#263446">对应上传并核实处理结果</text>
+</g>
+<g class="node" data-id="f">
+<polygon points="210,623 326,660 210,697 94,660" fill="#EEF5FC" stroke="#96A9BB"/>
+<text x="210" y="655" text-anchor="middle" font-size="14" fill="#263446">重查整个提交范围</text>
+<text x="210" y="675" text-anchor="middle" font-size="14" fill="#263446">还有缺项？</text>
+</g>
+<g class="node" data-id="g">
+<rect x="29" y="788" width="166" height="58" rx="29" fill="white" stroke="#96A9BB"/>
+<text x="112" y="812" text-anchor="middle" font-size="14" fill="#263446">列具体缺图和材料</text>
+<text x="112" y="832" text-anchor="middle" font-size="14" fill="#263446">保留已上传结果</text>
+</g>
+<g class="node" data-id="h">
+<rect x="225" y="788" width="166" height="78" rx="39" fill="white" stroke="#96A9BB"/>
+<text x="308" y="812" text-anchor="middle" font-size="14" fill="#263446">报告本次上传与原有已</text>
+<text x="308" y="832" text-anchor="middle" font-size="14" fill="#263446">满足项</text>
+<text x="308" y="852" text-anchor="middle" font-size="14" fill="#263446">检查明确授权后提交</text>
+</g>
+<text x="113" y="705" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">有</text>
+<text x="259" y="735.68" text-anchor="middle" font-size="12" fill="#465D72" stroke="white" stroke-width="3" paint-order="stroke">无</text>
 </g></svg>

@@ -1,0 +1,26 @@
+digraph G {
+rankdir=TB;
+subgraph cluster_0 { label="1 确定必传范围";
+a [label="读取勾选记录与有效竣工版本",shape=box];
+b [label="曾勾选但无竣工版\n均纳入待补集合",shape=box];
+}
+subgraph cluster_1 { label="2 对照成品";
+c [label="匹配待补图纸和本次新文件\n核对增补、取消及目录",shape=box];
+d [label="列缺件，安排独立可完成项",shape=box];
+}
+subgraph cluster_2 { label="3 上传后重新检查";
+e [label="对应上传并核实处理结果",shape=box];
+f [label="重查整个提交范围\n还有缺项？",shape=diamond];
+}
+subgraph cluster_3 { label="4 报告与收尾";
+g [label="列具体缺图和材料\n保留已上传结果",shape=oval];
+h [label="报告本次上传与原有已满足项\n检查明确授权后提交",shape=oval];
+}
+a -> b [label=""];
+b -> c [label=""];
+c -> d [label=""];
+d -> e [label=""];
+e -> f [label=""];
+f -> g [label="有"];
+f -> h [label="无"];
+}
