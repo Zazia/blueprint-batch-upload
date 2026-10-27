@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>有增补、有取消，分开办</title><desc>把动作落实到图纸；新详图 → 确认新增范围与图号；取消雨棚 → 找齐涉及的原图；文件夹少一张，不代表取消一张。检查配套材料；新增要成品；取消要取消变更单；新版目录须覆盖增补与取消范围；缺材料 → 提醒并标记未满足项。走正确的上传入口；增补 → 点击“上传图纸”；取消 → 对原图上传取消变更单；目录 → 对应新版或明确新增。逐目标核实并报告；一份取消单涉及多图 → 逐图核实；图纸、目录、取消目标分开统计；缺必要目录或取消单 → 不提交</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
+<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">有增补、有取消，分开办</text>
+<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">请求 · 新加详图，原雨棚取消，材料在 xx</text>
+<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
+<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
+<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">把动作落实到图纸</text>
+<circle cx="82" cy="332" r="4" fill="#007AFF"/>
+<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">新详图 → 确认新增范围与图号</text>
+<circle cx="82" cy="385" r="4" fill="#007AFF"/>
+<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">取消雨棚 → 找齐涉及的原图</text>
+<circle cx="82" cy="438" r="4" fill="#007AFF"/>
+<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">文件夹少一张，不代表取消一张</text>
+<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
+<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
+<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">检查配套材料</text>
+<circle cx="82" cy="612" r="4" fill="#007AFF"/>
+<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">新增要成品；取消要取消变更单</text>
+<circle cx="82" cy="665" r="4" fill="#007AFF"/>
+<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">新版目录须覆盖增补与取消范围</text>
+<circle cx="82" cy="718" r="4" fill="#007AFF"/>
+<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">缺材料 → 提醒并标记未满足项</text>
+<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
+<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
+<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">走正确的上传入口</text>
+<circle cx="82" cy="892" r="4" fill="#007AFF"/>
+<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">增补 → 点击“上传图纸”</text>
+<circle cx="82" cy="945" r="4" fill="#007AFF"/>
+<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">取消 → 对原图上传取消变更单</text>
+<circle cx="82" cy="998" r="4" fill="#007AFF"/>
+<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">目录 → 对应新版或明确新增</text>
+<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
+<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
+<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">逐目标核实并报告</text>
+<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
+<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">一份取消单涉及多图 → 逐图核实</text>
+<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
+<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">图纸、目录、取消目标分开统计</text>
+<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
+<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">缺必要目录或取消单 → 不提交</text>
+<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">取消保留原记录与历史，不做物理删除。</text>
+<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+</g></svg>

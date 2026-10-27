@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440"><title>两个接口，各管一段工作</title><desc>形成可上传成品；已有成品 → 直接交给上传阶段；只有源图 → 交前置处理接口；拆分、配对、打包能力尚未实施。明确本次图纸动作；当前 → 可靠匹配与明确用户说明；未来动作识别接口 → 给建议与依据；未匹配不等于新增，缺席不等于取消。上传并核实结果；接收成品、明确动作和目标；检查范围、冲突，再按入口上传；准备好了，不等于系统已上传成功。报告并检查提交授权；提供动作、专业、材料与缺项明细；清单本身不携带提交授权；条件齐全且明确获准 → 提交回读</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#007AFF"/></marker></defs><rect width="1080" height="1440" fill="white"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<text x="60" y="63" font-size="28" font-weight="600" fill="#526176" data-max="990">BLUEPRINT BATCH UPLOAD  /  设计单位上传</text>
+<text x="60" y="139" font-size="54" font-weight="700" fill="#16283D" data-max="1020">两个接口，各管一段工作</text>
+<text x="60" y="197" font-size="34" font-weight="400" fill="#526176" data-max="1020">职责示意 · 前置处理与动作识别均为预留</text>
+<rect x="56" y="235" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 235 H 1006 Q 1024 235 1024 253 V 301 H 56 V 253 Q 56 235 74 235" fill="#EAF3FF"/>
+<text x="85" y="282" font-size="42" font-weight="700" fill="#007AFF" data-max="990">01</text>
+<text x="168" y="282" font-size="42" font-weight="700" fill="#16283D" data-max="990">形成可上传成品</text>
+<circle cx="82" cy="332" r="4" fill="#007AFF"/>
+<text x="101" y="346" font-size="40" font-weight="400" fill="#263446" data-max="1000">已有成品 → 直接交给上传阶段</text>
+<circle cx="82" cy="385" r="4" fill="#007AFF"/>
+<text x="101" y="399" font-size="40" font-weight="400" fill="#263446" data-max="1000">只有源图 → 交前置处理接口</text>
+<circle cx="82" cy="438" r="4" fill="#007AFF"/>
+<text x="101" y="452" font-size="40" font-weight="400" fill="#263446" data-max="1000">拆分、配对、打包能力尚未实施</text>
+<path d="M 540 482 V 509" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="515" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 515 H 1006 Q 1024 515 1024 533 V 581 H 56 V 533 Q 56 515 74 515" fill="#EAF3FF"/>
+<text x="85" y="562" font-size="42" font-weight="700" fill="#007AFF" data-max="990">02</text>
+<text x="168" y="562" font-size="42" font-weight="700" fill="#16283D" data-max="990">明确本次图纸动作</text>
+<circle cx="82" cy="612" r="4" fill="#007AFF"/>
+<text x="101" y="626" font-size="40" font-weight="400" fill="#263446" data-max="1000">当前 → 可靠匹配与明确用户说明</text>
+<circle cx="82" cy="665" r="4" fill="#007AFF"/>
+<text x="101" y="679" font-size="40" font-weight="400" fill="#263446" data-max="1000">未来动作识别接口 → 给建议与依据</text>
+<circle cx="82" cy="718" r="4" fill="#007AFF"/>
+<text x="101" y="732" font-size="40" font-weight="400" fill="#263446" data-max="1000">未匹配不等于新增，缺席不等于取消</text>
+<path d="M 540 762 V 789" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="795" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 795 H 1006 Q 1024 795 1024 813 V 861 H 56 V 813 Q 56 795 74 795" fill="#EAF3FF"/>
+<text x="85" y="842" font-size="42" font-weight="700" fill="#007AFF" data-max="990">03</text>
+<text x="168" y="842" font-size="42" font-weight="700" fill="#16283D" data-max="990">上传并核实结果</text>
+<circle cx="82" cy="892" r="4" fill="#007AFF"/>
+<text x="101" y="906" font-size="40" font-weight="400" fill="#263446" data-max="1000">接收成品、明确动作和目标</text>
+<circle cx="82" cy="945" r="4" fill="#007AFF"/>
+<text x="101" y="959" font-size="40" font-weight="400" fill="#263446" data-max="1000">检查范围、冲突，再按入口上传</text>
+<circle cx="82" cy="998" r="4" fill="#007AFF"/>
+<text x="101" y="1012" font-size="40" font-weight="400" fill="#263446" data-max="1000">准备好了，不等于系统已上传成功</text>
+<path d="M 540 1042 V 1069" stroke="#007AFF" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="56" y="1075" width="968" height="244" rx="18" fill="#F5F8FC" stroke="#C9D9EB" stroke-width="2"/>
+<path d="M 74 1075 H 1006 Q 1024 1075 1024 1093 V 1141 H 56 V 1093 Q 56 1075 74 1075" fill="#EAF3FF"/>
+<text x="85" y="1122" font-size="42" font-weight="700" fill="#007AFF" data-max="990">04</text>
+<text x="168" y="1122" font-size="42" font-weight="700" fill="#16283D" data-max="990">报告并检查提交授权</text>
+<circle cx="82" cy="1172" r="4" fill="#007AFF"/>
+<text x="101" y="1186" font-size="40" font-weight="400" fill="#263446" data-max="1000">提供动作、专业、材料与缺项明细</text>
+<circle cx="82" cy="1225" r="4" fill="#007AFF"/>
+<text x="101" y="1239" font-size="40" font-weight="400" fill="#263446" data-max="1000">清单本身不携带提交授权</text>
+<circle cx="82" cy="1278" r="4" fill="#007AFF"/>
+<text x="101" y="1292" font-size="40" font-weight="400" fill="#263446" data-max="1000">条件齐全且明确获准 → 提交回读</text>
+<text x="60" y="1384" font-size="32" font-weight="600" fill="#526176" data-max="1020">接口是交接约定，不代表已有自动编排能力。</text>
+<text x="60" y="1420" font-size="24" font-weight="400" fill="#657184" data-max="1020">流程说明图 · 具体上传结果以当次系统回读为准</text>
+</g></svg>

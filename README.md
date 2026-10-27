@@ -18,6 +18,7 @@
 ## 文档入口
 
 - [技能效用介绍：真实情境、流程图与完成报告](docs/usage-walkthrough.md)
+- [公众号图文预览](docs/upload-guide/index.html) · [统一尺寸流程图与编辑说明](docs/upload-guide/README.md)
 - [两个预留接口：图纸前置处理、变更动作识别](docs/reserved-interfaces.md)
 - [工作约定](AGENTS.md)
 - [需求与现状分析](docs/requirements.md)

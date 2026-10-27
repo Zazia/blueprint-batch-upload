@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "id": "00-overview",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "01-initial",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "02-change",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "03-handover",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "04-add-cancel",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "05-completion",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "06-resume",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "07-limited",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "08-report-submit",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    },
+    {
+      "id": "09-interfaces",
+      "width": 1080,
+      "height": 1440,
+      "stages": 4,
+      "bodyFont": 40,
+      "titleFont": 54,
+      "stageFont": 42,
+      "overflow": 0
+    }
+  ],
+  "articleImages": 9,
+  "notes": "PNG rendered locally; diagram text bounding boxes checked. No WeChat paste verification."
+}
